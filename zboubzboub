@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Cabinet Medical du Dr.Ramatlhape</title> 	
+        <style>
+            table, td, th {
+                border: 1px solid black;
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Cabinet médical du  Dr Ramatlhape</h1>
+        <a href="file:///K:/Web/tp4_cabinet_medical_2024/salle-attente.jpg"><img src="images/cabinetmedical.png" height="250" width="400" alt="cabinet médical"></a>
+        <p>Bienvenue, je suis le <a href="CVdocteur.html" title="CV">Dr Ramatlhape</a>.<br>Sur cette page vous trouverez des renseignements sur mon cabinet médical</p>
+        
+        <h2>Horaires d'ouverture</h2>
+
+        <p>Le cabinet est ouvert tous les jours du Lundi au Samedi:</p>
+
+        <table> <!-- Voici la balise pour faire un tableau avec bordure-->
+        <tr><th><strong>Jours</strong></th> <th><strong>Horaires</strong></th> <th><strong>Horaires</strong></th></tr>
+        <tr><td><strong>Lundi</strong></td> <td>10h00-12h00</td> <td>14h00-19h00</td></tr>
+        <tr><td><strong>Mardi</strong></td> <td>8h30-12h00</td> <td>14h00-19h00</td></tr>
+        <tr><td><strong>Mercredi</strong></td> <td>8h30-12h00</td> <td>14h00-19h00</td></tr>
+        <tr><td><strong>Jeudi</strong></td> <td>8h30-12h00</td> <td>14h00-19h00</td></tr>
+        <tr><td><strong>Vendredi</strong></td> <td>8h30-12h00</td> <td>14h00-19h00</td></tr>
+        <tr><td><strong>Samedi</strong></td> <td>8h30-12h00</td> <td style="text-align: center"> - </td></tr>
+        <tr><td><strong>Dimanche</strong></td> <td> - </td> <td> - </td></tr>
+        </table>
+
+        <h2>En cas d'urgence</h2>
+
+        <p>Pendant les heures d'ouverture, appelez le numéro du cabinet (01.39.50.68.97) <br>Si vous ne pouvez pas me joindre, appelez le 15 (SAMU)</p>
+
+        <p>En dehors des heures d'ouverture, le répondeur du cabinet vouds donnera les coordonées du médecin de garde</p>
+
+        <h2>Me joindre par internet</h2>
+
+        <p>Si vous désirez me joindre, vous pouvez utiliser <a href="https://ordomedic.be/fr/contact" title="Formulaire de contact">le formulaire de contact suivant</a><br>Je suis par ailleurs membre de démonstration des <abbr title="Médecins Maître-Toile">MMT</abbr></p>
+        <!--La balise abbr fournir la descrition complète de l'abrévation-->
+
+        <p> Voici la <a href="medicaments.html">liste</a> des médicaments que je suis en droit de vous prescrire</p>
+        <a href="medicaments.html#fin_de_la_liste">Fin de liste des médicaments</a>
+
+   
+</body>
+</html>
